@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(224, 117, 117);
+}
+
+.titulo {
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+}
+
+.subtitulo {
+    font-family: monospace;
+}
+.bnt{
+    padding: 10pc 10px;
+    width: 50px;
+    color: greenyellow;
+    background-color: darkgreen;
+    border: 1px solid green;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.bnt:hover{
+    background-color: greenyellow;
+}
